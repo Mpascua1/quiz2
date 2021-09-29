@@ -1,7 +1,12 @@
 function myFunction() {
-  document.getElementById("parhide").style.display = "none";
+  document.getElementById("parhide").style.display = "block";
 }
 
 function myFunction1() {
-  document.getElementById("parhide").style.display = "block";
+  document.getElementById("parhide").style.display = "none";
 }
+
+function Out() {
+  document.getElementById("parhide").style.backgroundColor = "green";
+}
+
